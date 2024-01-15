@@ -1,0 +1,89 @@
+nav {
+  background-color: blue;
+  text-align: center;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+.input {
+  width: 300px;
+  margin: 30px auto;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.input h3,
+.unfinished h2,
+.finished h2 {
+  text-align: center;
+}
+
+.input input {
+  width: 97%;
+}
+
+.input p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.input p label {
+  margin-right: -130px;
+}
+
+.input p input[type="checkbox"] {
+  margin-left: 0px;
+}
+
+.input button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+.input button:hover,
+.search-bar button:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unfinished {
+  width: 300px;
+  margin: 30px;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.finished {
+  width: 300px;
+  margin: 30px;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.edit:hover {
+  background-color: yellow;
+}
+
+.delete:hover {
+  background-color: red;
+  color: aliceblue;
+}
